@@ -18,7 +18,9 @@ const Signin = (props: Props) => {
         currentState ? TotalFuction() : 'hello world'
       }
       <label htmlFor="\">Name</label>
-      <input type="text" placeholder='Enter Input' />
+      <input type="text" placeholder='Enter Name' />
+      <label htmlFor="\">Psssword</label>
+      <input type="text" placeholder='Enter Psssword' />
     </div>
   )
 }
