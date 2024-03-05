@@ -1,4 +1,4 @@
-'use client'
+'use client+'
 import React, { useState } from 'react'
 
 type Props = {}
@@ -17,6 +17,8 @@ const Signin = (props: Props) => {
       {
         currentState ? TotalFuction() : 'hello world'
       }
+      <label htmlFor="\">Name</label>
+      <input type="text" placeholder='Enter Input' />
     </div>
   )
 }
